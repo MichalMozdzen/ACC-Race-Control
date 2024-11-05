@@ -1,3 +1,8 @@
+# v1.5.8
+
+Changes:
+* Add support for Ford Mustang GT3
+
 # v1.5.7
 
 Changes:
