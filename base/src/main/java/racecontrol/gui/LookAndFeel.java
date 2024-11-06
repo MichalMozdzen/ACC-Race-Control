@@ -65,8 +65,8 @@ public class LookAndFeel {
         PFont fontMedium;
         PFont fontRegular;
         try {
-            fontMedium = base.createFont("data/font/Heebo-SemiBold.ttf", TEXT_SIZE, true);
-            fontRegular = base.createFont("data/font/Heebo-Regular.ttf", TEXT_SIZE, true);
+            fontMedium = base.createFont("Calibri", TEXT_SIZE, true);
+            fontRegular = base.createFont("Calibri", TEXT_SIZE, true);
         } catch (Exception e) {
             LOG.log(Level.WARNING, "Font not found.", e);
             fontMedium = base.createFont("Arial", TEXT_SIZE, true);
