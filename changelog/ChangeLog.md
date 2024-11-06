@@ -2,6 +2,7 @@
 
 Changes:
 * Add support for Ford Mustang GT3
+* Changed font to more universal - Calibri
 
 # v1.5.7
 

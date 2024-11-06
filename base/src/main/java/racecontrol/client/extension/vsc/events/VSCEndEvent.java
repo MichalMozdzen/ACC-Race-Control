@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2021 Leonard Schüngel
+ * Copyright (c) 2021 Leonard SchÃ¼ngel
  * 
  * For licensing information see the included license (LICENSE.txt)
  */

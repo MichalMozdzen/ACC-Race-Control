@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2021 Leonard Schüngel
+ * Copyright (c) 2021 Leonard SchÃ¼ngel
  *
  * For licensing information see the included license (LICENSE.txt)
  */
@@ -77,7 +77,7 @@ public class Main {
             g.fillRect(120, 140, 200, 40);
             g.setPaintMode();
             g.setColor(Color.WHITE);
-            g.drawString("Created by Leonard Schüngel", 10, 330);
+            g.drawString("Created by Leonard SchÃ¼ngel", 10, 330);
             g.drawString("Version: " + Version.VERSION, 500, 330);
             splash.update();
         }
