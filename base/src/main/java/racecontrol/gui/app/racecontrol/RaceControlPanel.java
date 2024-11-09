@@ -28,6 +28,7 @@ public class RaceControlPanel
 
     private final LPLabel subModuleLabel;
     private final LPLabel eventListLabel;
+    private final LPLabel replayCameraLabel;
 
     protected final LPButton exportButton;
     protected final LPButton googleSheetsButton;
@@ -54,6 +55,10 @@ public class RaceControlPanel
         findReplayOffsetLabel.setVisible(false);
         findReplayOffsetLabel.setPosition(20, 0);
         addComponent(findReplayOffsetLabel);
+
+        replayCameraLabel = new LPLabel("Replay camera:");
+        replayCameraLabel.setSize(200, LINE_HEIGHT);
+        addComponent(replayCameraLabel);
 
         eventListLabel = new LPLabel("Event list:");
         eventListLabel.setSize(200, LINE_HEIGHT);
@@ -101,6 +106,10 @@ public class RaceControlPanel
         placeHolder3.setPosition(buttonWidth + buttonPadding, heightOffset + buttonHeight + buttonPadding);
 
         float headerHeight = heightOffset + buttonHeight * 2 + LINE_HEIGHT;
+        replayCameraLabel.setPosition(20, headerHeight - LINE_HEIGHT);
+
+        headerHeight += LINE_HEIGHT;
+
         eventListLabel.setPosition(20, headerHeight - LINE_HEIGHT);
         table.setSize(w - 20, h - headerHeight - 10);
         table.setPosition(10, headerHeight);
